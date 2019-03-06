@@ -2,14 +2,19 @@
   width: 100%;
   background-color: #555;
   height: 66px;
+  position: sticky;
+  top: 0px;
+  margin-top: 0;
+  padding-top: 0;
+  border: 1px solid black;
 }
 
 .navbar a {
   float: left;
   text-align: center;
-  width: 20%;
+  width: 25%;
   padding: 12px 0;
-  transition: all 0.3s ease;
+  transition: background-color 0.3s ease;
   color: white;
   font-size: 36px;
   height: 42px;
@@ -22,4 +27,12 @@
 
 .active {
   background-color: #BB0000;
+}
+ iframe {
+  border: 2px black solid;
+
+ }
+body {
+margin-left: 0;
+
 }
