@@ -1,6 +1,9 @@
+body {
+  background-color: #f4f7f3;
+}
 .navbar {
   width: 100%;
-  background-color: #555;
+  background-color: #4F6467;
   height: 66px;
   position: fixed;
   top: 0px;
@@ -24,11 +27,14 @@
 }
 
 .navbar > a:hover {
-  background-color: #000;
+  background-color: #BB3E52;
 }
 
 .active {
-  background-color: #BB0000;
+  background-color: #E13F55;
+}
+.navbar > .active:hover{
+  background-color: skyblue;
 }
  iframe {
   border: 2px black solid;
@@ -41,4 +47,16 @@ margin-left: 0;
 #main {
   padding-top: 66px;
 
+}
+
+h1 {
+  font-size: 48px;
+  color: #E13F55;
+  padding-left: 25px;
+}
+p {
+  text-align: left;
+  width: 950px;
+  font-size: 32px;
+  padding-left: 50px;
 }
