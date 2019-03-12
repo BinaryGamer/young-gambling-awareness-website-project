@@ -34,7 +34,7 @@ body {
   background-color: #E13F55;
 }
 .navbar > .active:hover{
-  background-color: skyblue;
+  background-color: #f25166;
 }
  iframe {
   border: 2px black solid;
