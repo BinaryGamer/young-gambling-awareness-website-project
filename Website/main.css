@@ -63,7 +63,7 @@ p {
 
 img {
   display: inline-block;
-  padding-top: 40px;
+  margin-top: 40px;
   transition: transform 1s;
 }
 
